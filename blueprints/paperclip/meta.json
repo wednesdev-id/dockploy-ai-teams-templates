@@ -1,0 +1,17 @@
+{
+  "id": "paperclip",
+  "name": "Paperclip",
+  "version": "1.0.0",
+  "description": "Open-source control plane for managing AI agent employees at work: org charts, tasks, heartbeats, budgets, and governance.",
+  "logo": "logo.svg",
+  "links": {
+    "github": "https://github.com/paperclipai/paperclip",
+    "website": "https://paperclip.ing",
+    "docs": "https://docs.paperclip.ing"
+  },
+  "tags": [
+    "ai",
+    "agents",
+    "management"
+  ]
+}

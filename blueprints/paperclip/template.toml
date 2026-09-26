@@ -1,0 +1,17 @@
+[variables]
+paperclip_domain = "${domain}"
+postgres_password = "${password:32}"
+better_auth_secret = "${password:64}"
+
+[config]
+env = [
+  "PAPERCLIP_DOMAIN=${paperclip_domain}",
+  "POSTGRES_PASSWORD=${postgres_password}",
+  "BETTER_AUTH_SECRET=${better_auth_secret}",
+]
+mounts = []
+
+[[config.domains]]
+serviceName = "paperclip"
+port = 3100
+host = "${paperclip_domain}"

@@ -1,0 +1,19 @@
+{
+  "id": "paperclip-ai-teams",
+  "name": "Paperclip AI Teams (All-in-One)",
+  "version": "1.0.0",
+  "description": "Enterprise AI Department stack: Paperclip control plane, 9Router multi-account fallback gateway, Headroom token-reduction proxy, and PostgreSQL 17.",
+  "logo": "logo.svg",
+  "links": {
+    "github": "https://github.com/paperclipai/paperclip",
+    "website": "https://paperclip.ing",
+    "docs": "https://docs.paperclip.ing"
+  },
+  "tags": [
+    "ai",
+    "agents",
+    "orchestration",
+    "teams",
+    "automation"
+  ]
+}

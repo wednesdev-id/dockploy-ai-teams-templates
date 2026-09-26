@@ -1,0 +1,55 @@
+[
+  {
+    "id": "paperclip-ai-teams",
+    "name": "Paperclip AI Teams (All-in-One)",
+    "version": "1.0.0",
+    "description": "Enterprise AI Department stack: Paperclip control plane, 9Router multi-account fallback gateway, Headroom token-reduction proxy, and PostgreSQL 17.",
+    "logo": "logo.svg",
+    "links": {
+      "github": "https://github.com/paperclipai/paperclip",
+      "website": "https://paperclip.ing",
+      "docs": "https://docs.paperclip.ing"
+    },
+    "tags": [
+      "ai",
+      "agents",
+      "orchestration",
+      "teams",
+      "automation"
+    ]
+  },
+  {
+    "id": "paperclip",
+    "name": "Paperclip",
+    "version": "1.0.0",
+    "description": "Open-source control plane for managing AI agent employees at work: org charts, tasks, heartbeats, budgets, and governance.",
+    "logo": "logo.svg",
+    "links": {
+      "github": "https://github.com/paperclipai/paperclip",
+      "website": "https://paperclip.ing",
+      "docs": "https://docs.paperclip.ing"
+    },
+    "tags": [
+      "ai",
+      "agents",
+      "management"
+    ]
+  },
+  {
+    "id": "9router",
+    "name": "9Router",
+    "version": "0.5.40",
+    "description": "Self-hosted AI model router that rotates requests across 40+ providers with automatic fallback, exposing an OpenAI-compatible endpoint.",
+    "logo": "9router.png",
+    "links": {
+      "github": "https://github.com/decolua/9router",
+      "website": "https://9router.com",
+      "docs": "https://github.com/decolua/9router/blob/master/DOCKER.md"
+    },
+    "tags": [
+      "ai",
+      "proxy",
+      "developer-tools"
+    ]
+  }
+]
