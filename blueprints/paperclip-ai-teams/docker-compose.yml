@@ -52,9 +52,11 @@ services:
       PAPERCLIP_DEPLOYMENT_MODE: "authenticated"
       PAPERCLIP_DEPLOYMENT_EXPOSURE: "public"
       PAPERCLIP_PUBLIC_URL: https://${PAPERCLIP_DOMAIN}
+      PAPERCLIP_MIGRATION_AUTO_APPLY: "true"
       BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
       OPENAI_BASE_URL: "http://9router:20128/v1"
-      OPENAI_API_KEY: "internal"
+      OPENAI_API_KEY: ${ROUTER_API_KEY}
+      PAPERCLIP_HTTP_ADAPTER_PRIVATE_ENDPOINT_ALLOWLIST: "http://9router:20128"
     volumes:
       - paperclip-data:/paperclip
     depends_on:
